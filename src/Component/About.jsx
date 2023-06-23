@@ -1,0 +1,20 @@
+import React from 'react';
+import { Link, animateScroll as scroll } from 'react-scroll';
+
+
+const About = () => {
+
+    const scrollToTop = () => {
+        scroll.scrollToTop();
+      };
+      
+    return (
+        <div id='about'>
+            <h1 className='text-center text-3xl font-semibold'>About </h1>
+            <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam corporis eligendi, illo esse tenetur facilis eius recusandae earum suscipit ipsum dolores reiciendis quas aspernatur? Unde esse magni facilis ratione voluptas fugit quidem quod reprehenderit a sed corrupti eligendi aperiam itaque nesciunt, maxime, dignissimos, cum voluptatibus modi consequatur repellendus laboriosam! At unde sed ipsum, tempora recusandae enim consequatur voluptatibus perferendis cumque assumenda praesentium excepturi tempore possimus optio fuga, numquam quas incidunt, ipsam ut iste autem. Dolor quam porro magnam perferendis magni illum harum perspiciatis rem saepe tempora ipsum provident quaerat iusto quas molestias suscipit est, pariatur distinctio eius, dolorem, velit odit sequi enim minus! Ipsum, voluptate amet molestiae illum quia veniam autem id aut labore quibusdam possimus sunt. Nostrum, vero dolorum dolor animi obcaecati ea! Laboriosam optio voluptate eaque recusandae explicabo qui quam quod est dolorem laudantium accusamus facilis, repudiandae suscipit quia asperiores magni consectetur enim veniam rerum debitis aperiam! Facere nam, deserunt ex porro, tempora dolorem quos ullam sint neque cumque iure accusamus possimus tenetur! Exercitationem eligendi fugit blanditiis illo, non labore error dolore alias, placeat aperiam nostrum quibusdam delectus numquam minima nam voluptate ipsam? Recusandae fugit vitae error corporis eius facilis, saepe quo similique sunt ea at et harum, eum consequatur fugiat porro hic quos ipsa nemo cum neque tempora incidunt laboriosam. Sunt reiciendis ullam, distinctio omnis molestiae velit fugiat obcaecati aliquid minima voluptas tenetur laudantium nihil, temporibus libero, odit dolorem. Autem magni voluptas eaque commodi ad eum fuga aliquid atque ea ut ipsum, similique dolorum praesentium suscipit dignissimos provident deserunt accusamus nihil, fugit inventore totam cumque! Cumque impedit veritatis quam, eveniet delectus facere reprehenderit corrupti accusamus veniam natus voluptatem sequi explicabo eum recusandae unde nesciunt voluptatibus alias mollitia, repudiandae voluptas. Natus, blanditiis aliquid omnis voluptatem incidunt reiciendis. Distinctio excepturi molestiae reiciendis cum praesentium consequatur, reprehenderit veritatis ab, et optio dolore maiores inventore nihil modi vel voluptatum repellendus suscipit atque pariatur aliquid error. Tempore quasi error corporis et debitis architecto, temporibus sequi delectus, deserunt corrupti beatae sit eum aut facere explicabo impedit culpa reprehenderit. Sapiente eum autem, vitae id, hic consequatur porro et magni officia, sint eius saepe consectetur numquam iure ea accusantium suscipit sit blanditiis vero ut quae! Praesentium incidunt rerum eum consequatur amet rem? Numquam corrupti quasi quis nam perspiciatis enim quidem, provident corporis nobis excepturi non earum facilis dicta est incidunt, quo labore voluptate voluptatem alias autem amet magnam optio id quas! Impedit facere totam nisi est saepe harum. Hic quod perspiciatis, consequatur quaerat alias fuga, distinctio saepe quasi nesciunt animi vel repellendus odio mollitia culpa a minus vero laborum qui maxime asperiores cupiditate similique doloremque? At voluptas eligendi ad laborum, autem reprehenderit quidem doloremque necessitatibus! Amet atque eos sit eligendi delectus voluptatibus adipisci quos expedita sunt maxime, minima illum iure, porro possimus! Aliquam corporis rem dicta nesciunt, itaque eius fugit facere nobis labore quis quia sunt ipsam laboriosam dolore maxime, quaerat reprehenderit unde! Adipisci quidem explicabo assumenda veritatis quisquam, minima delectus incidunt eveniet, amet dolores facilis. Eaque culpa facere ab sapiente illo sequi consequatur facilis.</div>
+            
+        </div>
+    );
+};
+
+export default About;
