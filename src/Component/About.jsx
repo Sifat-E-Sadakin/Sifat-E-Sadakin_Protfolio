@@ -9,7 +9,7 @@ const About = () => {
     };
 
     return (
-        <div className='container mx-auto  '>
+        <div className='container mx-auto   '>
             <Element name='about' className='pt-20' >
                 <h1 className='text-center text-3xl font-semibold'>About </h1>
                 <div className='flex'>
@@ -22,6 +22,7 @@ const About = () => {
                     <div className='w-1/2'>
                         <div className='flex justify-center py-8'>
                         <h1 className='text-2xl font-semibold'>More Information</h1>
+
 
                         </div>
                        
