@@ -1,0 +1,59 @@
+[
+    {
+        "name": "HTML",
+        "img" : "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+    },
+    {
+        "name": "CSS",
+        "img" : "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+    },
+    {
+        "name": "Javascript",
+        "img" : "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+    },
+    {
+        "name": "Tailwind",
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+    },
+    {
+        "name": "BootStrap",
+        "img" : "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
+    },
+    {
+        "name": "React",
+        "img" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+    },
+    {
+        "name":"Mongo DB",
+        "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg"
+    },
+    {
+        "name": "Express JS",
+        "img" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+    },
+    {
+        "name": "Node JS",
+        "img" : "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+    },
+    {
+        "name": "Git",
+        "img" : "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg"
+    },
+    {
+        "name": "Firebase",
+        "img" : "https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-1024.png"
+    },
+    {
+        "name": "Python",
+        "img" : "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-1024.png"
+    },
+    {
+        "name": "C++",
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
+    },
+    {
+        "name":"Java",
+        "img":"https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-1024.png"
+    }
+    
+]
