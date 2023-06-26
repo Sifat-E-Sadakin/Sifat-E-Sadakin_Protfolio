@@ -1,19 +1,28 @@
 import React from 'react';
-
+import './Styles/styles.css'
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 
 const Navbar = () => {
 
+    const smoothScrollOptions = {
+        duration: 500,  // Duration of the scroll animation in milliseconds
+        smooth: true,  // Enable smooth scrolling
+        offset: -50,  // Offset from the top of the section when scrolling
+      };
+
     const scrollToTop = () => {
-        scroll.scrollToTop();
+        scroll.scrollToTop(smoothScrollOptions);
     };
+
+   
+    
 
 
     let navItem = <>
       
-        <li><Link to='home' onClick={scrollToTop}>Home</Link></li>
-        <li><Link to='about' onClick={scrollToTop}>About</Link></li>
+        <li><Link  spy={true} activeClass="active"   to='home' onClick={scrollToTop}>Home</Link></li>
+        <li><Link activeClass="active" spy={true} smooth={true}  to='about' onClick={scrollToTop}>About</Link></li>
         <li tabIndex={0}>
             <details>
                 <summary>Parent</summary>
@@ -25,8 +34,8 @@ const Navbar = () => {
         </li>
         <li><a>Item 3</a></li></>
     return (
-        <div className='' >
-            <div className='sticky top-0 z-40 bg-black bg-opacity-50 text-white  '>
+        <div className='sticky top-0 z-40' >
+            <div className=' bg-black bg-opacity-50 text-white  '>
                 <div className="navbar container mx-auto    ">
                     <div className="navbar-start">
                         <div className="dropdown">
