@@ -41,3 +41,71 @@
   -o-transition: all 3s;
   transition: all 3s;
 }
+
+.screen1 {
+	display: block;
+	width: 75%;
+	height: 350px;
+	overflow: hidden;
+	position: relative;
+
+	
+	margin: 0 auto;
+}
+.screen1 img {
+	bottom: -885px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: 0;
+  margin:0;
+  padding:0;
+ 
+	-webkit-transition: top 3s;
+	-moz-transition: top 3s;
+	-ms-transition: top 3s;
+	-o-transition: top 3s;
+	transition: bottom 3s;
+}
+.screen1:hover img {
+  bottom: 0;
+  -webkit-transition: all 3s;
+  -moz-transition: all 3s;
+  -ms-transition: all 3s;
+  -o-transition: all 3s;
+  transition: all 3s;
+}
+
+.screen2 {
+	display: block;
+	width: 75%;
+	height: 350px;
+	overflow: hidden;
+	position: relative;
+
+	
+	margin: 0 auto;
+}
+.screen2 img {
+	bottom: -1325px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: 0;
+  margin:0;
+  padding:0;
+ 
+	-webkit-transition: top 3s;
+	-moz-transition: top 3s;
+	-ms-transition: top 3s;
+	-o-transition: top 3s;
+	transition: bottom 3s;
+}
+.screen2:hover img {
+  bottom: 0;
+  -webkit-transition: all 3s;
+  -moz-transition: all 3s;
+  -ms-transition: all 3s;
+  -o-transition: all 3s;
+  transition: all 3s;
+}

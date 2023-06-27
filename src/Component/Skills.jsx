@@ -26,7 +26,7 @@ const Skills = () => {
                 {
                     expert.map(item => <div className='mx-10'>
                         <div className="card   ">
-                            <figure className='w-32'><img src={item.img} alt="Shoes" /></figure>
+                            <figure className='w-20'><img src={item.img} alt="Shoes" /></figure>
                             <div className="card-body">
                                 <h2 className="text-center text-xl font-semibold ">{item.name}</h2>
                                 
@@ -36,11 +36,11 @@ const Skills = () => {
                 }
             </Marquee>
             <h1 className='text-3xl text-center font-semibold my-10'>Comfortable At</h1>
-            <Marquee  direction='right'>
+            <Marquee  speed={30}>
                 {
                     comfortable.map(item => <div className='mx-10'>
                         <div className="card   ">
-                            <figure className='w-32'><img src={item.img} alt="Shoes" /></figure>
+                            <figure className='w-20'><img src={item.img} alt="Shoes" /></figure>
                             <div className="card-body">
                                 <h2 className="text-center text-xl font-semibold ">{item.name}</h2>
                                 
