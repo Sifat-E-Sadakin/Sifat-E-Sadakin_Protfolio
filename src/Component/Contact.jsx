@@ -38,7 +38,7 @@ const Contact = () => {
         <div id='contact' className='container mx-auto my-10'>
             <h1 className='text-3xl text-center font-semibold my-10'>Leave A Message</h1>
             <form ref={form} onSubmit={sendEmail}>
-                <div className='flex justify-center gap-20'>
+                <div className='flex flex-col md:flex-row justify-center gap-20'>
                     <div  className='flex flex-col gap-8'>
                         <div>
                             <label className="block ">Name</label>
