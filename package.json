@@ -24,6 +24,7 @@
     "react-text-transition": "^3.1.0",
     "react-tsparticles": "^2.10.1",
     "sort-by": "^1.2.0",
+    "sweetalert2": "^11.7.12",
     "tsparticles": "^2.10.1"
   },
   "devDependencies": {

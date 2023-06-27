@@ -11,7 +11,7 @@ import { FaChrome, FaGithub, FaGithubSquare } from 'react-icons/fa';
 
 const Projects = () => {
     return (
-        <div className=' mt-10'>
+        <div id='projects' className=' mt-10'>
 
 
 
@@ -38,9 +38,9 @@ const Projects = () => {
                                     <li>Mobile Responsive</li>
                                 </div>
                                 <div className='flex justify-evenly my-5'>
-                                    <div className='flex items-center gap-3'><FaChrome className='text-2xl'></FaChrome> <a href="">Live Link</a></div>
-                                    <div className='flex items-center gap-3'><FaGithub className='text-2xl'></FaGithub> <a href="">Github Link</a></div>
-                                    <div className='flex items-center gap-3'><FaGithubSquare className='text-2xl'></FaGithubSquare> <a href="">Server Link</a></div>
+                                    <div className='flex items-center gap-3'><FaChrome className='text-2xl'></FaChrome> <a href="https://assignment-xii.web.app/" target='_blank'>Live Link</a></div>
+                                    <div className='flex items-center gap-3'><FaGithub className='text-2xl'></FaGithub> <a href="https://github.com/Sifat-E-Sadakin/Athlete-Escapes" target='_blank'>Github Link</a></div>
+                                    <div className='flex items-center gap-3'><FaGithubSquare className='text-2xl'></FaGithubSquare> <a href="https://github.com/Sifat-E-Sadakin/Athlete-Escapes-Server" target='_blank'>Server Link</a></div>
                                 </div>
 
                             </div>
@@ -76,9 +76,9 @@ const Projects = () => {
                                     <li>Mobile Responsive</li>
                                 </div>
                                 <div className='flex justify-evenly my-5'>
-                                    <div className='flex items-center gap-3'><FaChrome className='text-2xl'></FaChrome> <a href="">Live Link</a></div>
-                                    <div className='flex items-center gap-3'><FaGithub className='text-2xl'></FaGithub> <a href="">Github Link</a></div>
-                                    <div className='flex items-center gap-3'><FaGithubSquare className='text-2xl'></FaGithubSquare> <a href="">Server Link</a></div>
+                                    <div className='flex items-center gap-3'><FaChrome className='text-2xl'></FaChrome> <a href="https://assignment-11-3bbbb.web.app/" target='_blank'>Live Link</a></div>
+                                    <div className='flex items-center gap-3'><FaGithub className='text-2xl'></FaGithub> <a href="https://github.com/Sifat-E-Sadakin/Wheels-Thrills" target='_blank'>Github Link</a></div>
+                                    <div className='flex items-center gap-3'><FaGithubSquare className='text-2xl'></FaGithubSquare> <a href="https://github.com/Sifat-E-Sadakin/Wheels-Thrills-Server" target='_blank'>Server Link</a></div>
                                 </div>
 
                             </div>
@@ -114,9 +114,9 @@ const Projects = () => {
                                     <li>Download QNA as PDF</li>
                                 </div>
                                 <div className='flex justify-evenly my-5'>
-                                    <div className='flex items-center gap-3'><FaChrome className='text-2xl'></FaChrome> <a href="">Live Link</a></div>
-                                    <div className='flex items-center gap-3'><FaGithub className='text-2xl'></FaGithub> <a href="">Github Link</a></div>
-                                    <div className='flex items-center gap-3'><FaGithubSquare className='text-2xl'></FaGithubSquare> <a href="">Server Link</a></div>
+                                    <div className='flex items-center gap-3'><FaChrome className='text-2xl'></FaChrome> <a href="https://assignment-10-d597b.web.app/" target='_blank'>Live Link</a></div>
+                                    <div className='flex items-center gap-3'><FaGithub className='text-2xl'></FaGithub> <a href="https://github.com/Sifat-E-Sadakin/Chef-s-Pro" target='_blank'>Github Link</a></div>
+                                    <div className='flex items-center gap-3'><FaGithubSquare className='text-2xl'></FaGithubSquare> <a href="https://github.com/Sifat-E-Sadakin/Chef-s-Pro-Server" target='_blank'>Server Link</a></div>
                                 </div>
 
                             </div>

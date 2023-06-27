@@ -23,16 +23,10 @@ const Navbar = () => {
       
         <li><Link  spy={true} activeClass="active"   to='home' onClick={scrollToTop}>Home</Link></li>
         <li><Link activeClass="active" spy={true} smooth={true}  to='about' onClick={scrollToTop}>About</Link></li>
-        <li tabIndex={0}>
-            <details>
-                <summary>Parent</summary>
-                <ul className="p-2">
-                    <li><a>Submenu 1</a></li>
-                    <li><a>Submenu 2</a></li>
-                </ul>
-            </details>
-        </li>
-        <li><a>Item 3</a></li></>
+        <li><Link activeClass="active" spy={true} smooth={true}  to='skills' onClick={scrollToTop}>Skills</Link></li>
+        <li><Link activeClass="active" spy={true} smooth={true}  to='projects' onClick={scrollToTop}>Projects</Link></li>
+        <li><Link activeClass="active" spy={true} smooth={true}  to='contact' onClick={scrollToTop}>Contact</Link></li>
+       </>
     return (
         <div className='sticky top-0 z-40' >
             <div className=' bg-black bg-opacity-50 text-white  '>

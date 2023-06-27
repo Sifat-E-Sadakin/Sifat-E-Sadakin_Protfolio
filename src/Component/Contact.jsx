@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 const Contact = () => {
 
@@ -9,17 +10,32 @@ const Contact = () => {
         e.preventDefault();
 
         console.log(form.current);
+       
 
-        emailjs.sendForm('service_toc6zua', 'template_g1ihqbg', form.current, 'ALzRrFeI7Op0rUoUL')
+        emailjs.sendForm(import.meta.env.VITE_ST, import.meta.env.VITE_TT, form.current, import.meta.env.VITE_PT)
             .then((result) => {
+                Swal.fire({
+                    position: 'top-end',
+                    icon: 'success',
+                    title: 'Mail Sent Successfully To Sifat-E-Sadakin',
+                    showConfirmButton: false,
+                    timer: 1500
+                  })
                 console.log(result.text);
+                e.target.reset();
             }, (error) => {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Something went wrong!',
+                   
+                  })
                 console.log(error.text);
             });
     };
 
     return (
-        <div className='container mx-auto my-10'>
+        <div id='contact' className='container mx-auto my-10'>
             <h1 className='text-3xl text-center font-semibold my-10'>Leave A Message</h1>
             <form ref={form} onSubmit={sendEmail}>
                 <div className='flex justify-center gap-20'>

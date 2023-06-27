@@ -18,7 +18,7 @@ const Skills = () => {
     console.log(comfortable);
 
     return (
-        <div className='container mx-auto'>
+        <div className='container mx-auto ' id='skills'>
             
 
             <h1 className='text-3xl text-center font-semibold my-10'>Expert At</h1>
