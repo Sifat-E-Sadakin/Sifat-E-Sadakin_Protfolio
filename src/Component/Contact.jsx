@@ -19,15 +19,34 @@ const Contact = () => {
     };
 
     return (
-        <div>
+        <div className='container mx-auto my-10'>
+            <h1 className='text-3xl text-center font-semibold my-10'>Leave A Message</h1>
             <form ref={form} onSubmit={sendEmail}>
-                <label>Name</label>
-                <input type="text" name="user_name" />
-                <label>Email</label>
-                <input type="email" name="user_email" />
-                <label>Message</label>
-                <textarea name="message" />
-                <input type="submit" value="Send" />
+                <div className='flex justify-center gap-20'>
+                    <div  className='flex flex-col gap-8'>
+                        <div>
+                            <label className="block ">Name</label>
+                            <input className="input input-bordered input-primary w-full max-w-xs" type="text" name="user_name" />
+
+                        </div>
+                        <div>
+                            <label className="block">Email</label>
+                            <input className="input input-bordered input-primary w-full max-w-xs" type="email" name="user_email" />
+
+                        </div>
+                    </div>
+
+                    <div className='flex flex-col gap-4'>
+                        <label className="block">Message</label>
+                        <textarea className="textarea textarea-primary w-72 "  name="message" />
+                        <input className='btn' type="submit" value="Send" />
+
+                    </div>
+                </div>
+
+
+
+                
             </form>
 
         </div>

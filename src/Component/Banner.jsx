@@ -37,7 +37,7 @@ const Banner = () => {
                                 <a href="https://www.instagram.com/sifat10/" target='_blank'><FaInstagram></FaInstagram></a>
                             </div>
                             <div className='flex gap-7'>
-                            <a className='btn' href="https://drive.google.com/uc?export=download&id=1J582FG-v1Jsnzr1WD97wotpfd6p3FYKT" target='_blank'>Resume</a>
+                            <a className='btn ' href="https://drive.google.com/uc?export=download&id=1J582FG-v1Jsnzr1WD97wotpfd6p3FYKT" target='_blank'>Resume</a>
                             <a className='btn btn-outline border-white text-white' href="mailto:sifatesadakin10@gmail.com" target='_blank'>Contact</a>
 
                             </div>

@@ -8,6 +8,7 @@ import Projects from '../Component/Projects/Projects';
 import GithubCalendar from '../Component/GithubCalendar';
 import BgDesign from '../Component/BgDesign';
 import Contact from '../Component/Contact';
+import Footer from '../Component/Footer';
 
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
             <Projects></Projects>
             <GithubCalendar></GithubCalendar>
             <Contact></Contact>
+            <Footer></Footer>
             
         </div>
     );
