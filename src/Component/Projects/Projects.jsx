@@ -1,6 +1,7 @@
 import React from 'react';
 import p1 from '/Projects/assignment-xii.web.app_.png'
-import px from '/Projects/_import_61557a2fa7fd98.46035599_FPpreview.mp4'
+import bg from '../../../public/BG/close-up-image-programer-working-his-desk-office.jpg'
+// import px from '/Projects/_import_61557a2fa7fd98.46035599_FPpreview.mp4'
 import './projects.css'
 
 
@@ -15,10 +16,10 @@ const Projects = () => {
           </video> */}
 
 
-            <div className="hero bg-fixed min-h-screen" style={{ backgroundImage: `url("https://img.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg?w=1060&t=st=1687817822~exp=1687818422~hmac=168a6af3ba133949961a1e825ff1f713ff5497f3338fbd9cf04fa216ca190f25")` }}>
+            <div className="hero bg-fixed min-h-screen" style={{ backgroundImage: `url("/BG/close-up-image-programer-working-his-desk-office.jpg")` }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">
-                    <div className="">
+                    <div className="text-blue-50">
                         <h1 className='text-center text-3xl font-semibold my-10'> Recent Projects</h1>
                         <div className='flex content'>
 

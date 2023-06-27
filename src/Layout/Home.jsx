@@ -5,17 +5,23 @@ import Banner from '../Component/Banner';
 import About from '../Component/About';
 import Skills from '../Component/Skills';
 import Projects from '../Component/Projects/Projects';
+import GithubCalendar from '../Component/GithubCalendar';
+import BgDesign from '../Component/BgDesign';
+import Contact from '../Component/Contact';
 
 
 const Home = () => {
     return (
         <div className=''>
+       
             <Navbar></Navbar>
             <Banner></Banner>
             <About></About>
             <Skills></Skills>
             <Projects></Projects>
-            <Outlet></Outlet>
+            <GithubCalendar></GithubCalendar>
+            <Contact></Contact>
+            
         </div>
     );
 };
