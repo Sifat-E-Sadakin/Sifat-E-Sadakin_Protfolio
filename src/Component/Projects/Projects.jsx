@@ -6,13 +6,15 @@ import bg from '../../../public/BG/close-up-image-programer-working-his-desk-off
 // import px from '/Projects/_import_61557a2fa7fd98.46035599_FPpreview.mp4'
 import './projects.css'
 import { FaChrome, FaGithub, FaGithubSquare } from 'react-icons/fa';
+import { Helmet } from 'react-helmet-async';
 
 
 
 const Projects = () => {
     return (
-        <div id='projects' className=' mt-10'>
+        <div id='projects' className=' mt-20'>
 
+           
 
 
             {/* <video loop autoPlay muted id='bg-video'>
@@ -20,12 +22,12 @@ const Projects = () => {
           </video> */}
 
 
-            <div className="hero bg-fixed min-h-screen" style={{ backgroundImage: `url("/BG/close-up-image-programer-working-his-desk-office.jpg")` }}>
+            <div className="hero  md:bg-fixed min-h-screen" style={{ backgroundImage: `url("/BG/close-up-image-programer-working-his-desk-office.jpg")` }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">
                     <div className="text-blue-50">
                         <h1 className='text-center text-3xl font-semibold my-10'> Recent Projects</h1>
-                        <div className='flex flex-col md:flex-row content my-20'>
+                        <div className='flex flex-col md:flex-row content my-20  bg-black bg-opacity-30 p-10 rounded-lg'>
 
                             <div className='md:w-1/2 '>
                                 <h1 className='text-center text-2xl font-medium'>Athlete Escape</h1>
@@ -63,7 +65,7 @@ const Projects = () => {
                         </div>
 
 
-                        <div className='flex flex-col md:flex-row-reverse my-20'>
+                        <div className='flex flex-col md:flex-row-reverse my-20  bg-black bg-opacity-30 p-10 rounded-lg'>
 
                             <div className='md:w-1/2'>
                                 <h1 className='text-center text-2xl font-medium'>Wheels & Thrills </h1>
@@ -101,7 +103,7 @@ const Projects = () => {
                         </div>
 
 
-                        <div className='flex flex-col md:flex-row content my-20'>
+                        <div className='flex flex-col md:flex-row content my-20  bg-black bg-opacity-30 p-10 rounded-lg'>
 
                             <div className='md:w-1/2'>
                                 <h1 className='text-center text-2xl font-medium'>Chef's Pro</h1>

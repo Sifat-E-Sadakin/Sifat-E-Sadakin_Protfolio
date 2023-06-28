@@ -9,6 +9,7 @@ import GithubCalendar from '../Component/GithubCalendar';
 import BgDesign from '../Component/BgDesign';
 import Contact from '../Component/Contact';
 import Footer from '../Component/Footer';
+import Awards from '../Component/Awards';
 
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
             <Skills></Skills>
             <Projects></Projects>
             <GithubCalendar></GithubCalendar>
+            <Awards></Awards>
             <Contact></Contact>
             <Footer></Footer>
             

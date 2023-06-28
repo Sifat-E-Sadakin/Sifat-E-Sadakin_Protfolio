@@ -1,6 +1,7 @@
 import React from 'react';
 import './Styles/styles.css'
 import { Link, animateScroll as scroll } from 'react-scroll';
+import { FaArrowCircleDown } from 'react-icons/fa';
 
 
 const Navbar = () => {
@@ -48,7 +49,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="navbar-end">
-                        <a className="btn">Button</a>
+                    <a className='btn btn-outline ' href="https://drive.google.com/uc?export=download&id=1J582FG-v1Jsnzr1WD97wotpfd6p3FYKT" target='_blank'>Resume <FaArrowCircleDown></FaArrowCircleDown></a>
                     </div>
                 </div>
             </div>

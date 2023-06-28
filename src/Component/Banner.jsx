@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaGithub, FaLinkedinIn, FaFacebook, FaInstagram } from 'react-icons/fa';
+import { Helmet } from 'react-helmet-async';
+import { FaGithub, FaLinkedinIn, FaFacebook, FaInstagram, FaMailBulk } from 'react-icons/fa';
 
 import TextTransition, { presets } from 'react-text-transition';
 
@@ -21,6 +22,10 @@ const Banner = () => {
 
     return (
         <div id='home' className='relative bottom-20'>
+               <Helmet>
+                <title>Sifat-E-Sadakin | Portfolio</title>
+             
+            </Helmet>
             <div className="hero min-h-screen" style={{ backgroundImage: `url("/BG/89781.jpg")` }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">
@@ -35,6 +40,7 @@ const Banner = () => {
                                 <a href="https://www.linkedin.com/in/sifat-e-sadakin-4414b91a6/" target='_blank'><FaLinkedinIn></FaLinkedinIn></a>
                                 <a href="https://www.facebook.com/profile.php?id=100007217809134" target='_blank'><FaFacebook></FaFacebook></a>
                                 <a href="https://www.instagram.com/sifat10/" target='_blank'><FaInstagram></FaInstagram></a>
+                                <a href="mailto:sifatesadakin10@gmail.com" target='_blank'><FaMailBulk></FaMailBulk></a>
                             </div>
                             <div className='flex gap-7'>
                             <a className='btn ' href="https://drive.google.com/uc?export=download&id=1J582FG-v1Jsnzr1WD97wotpfd6p3FYKT" target='_blank'>Resume</a>

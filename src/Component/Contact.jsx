@@ -42,19 +42,19 @@ const Contact = () => {
                     <div  className='flex flex-col gap-8'>
                         <div>
                             <label className="block ">Name</label>
-                            <input className="input input-bordered input-primary w-full max-w-xs" type="text" name="user_name" />
+                            <input required placeholder='Your Name' className="input input-bordered input-primary w-full max-w-xs" type="text" name="user_name" />
 
                         </div>
                         <div>
                             <label className="block">Email</label>
-                            <input className="input input-bordered input-primary w-full max-w-xs" type="email" name="user_email" />
+                            <input required placeholder='Your Email' className="input input-bordered input-primary w-full max-w-xs" type="email" name="user_email" />
 
                         </div>
                     </div>
 
                     <div className='flex flex-col gap-4'>
                         <label className="block">Message</label>
-                        <textarea className="textarea textarea-primary w-72 "  name="message" />
+                        <textarea required placeholder='Message' className="textarea textarea-primary w-72 "  name="message" />
                         <input className='btn' type="submit" value="Send" />
 
                     </div>
