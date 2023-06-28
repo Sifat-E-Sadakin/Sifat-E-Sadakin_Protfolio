@@ -34,9 +34,9 @@ const About = () => {
 
                         </div>
                         <div >
-                           <span> </span> <span>Brac University — B.Sc. in Computer Science & Engineering (CSE), 2019 - present</span>
-                           <p>Milestone College - Higher Secondary Certificate, 2016 - 2018</p>
-                           <p>Rani Bilash Moni Gov't Boys High School  - Secondary School Certificate, 2011 - 2016</p>
+                              <span className='font-semibold'> Brac University </span> <span> — B.Sc. in Computer Science & Engineering (CSE), 2019 - present</span>
+                           <p><span className='font-semibold'>Milestone College</span> - Higher Secondary Certificate, 2016 - 2018</p>
+                           <p><span className='font-semibold'>Rani Bilash Moni Gov't Boys High School</span>  - Secondary School Certificate, 2011 - 2016</p>
                         </div>
 
 

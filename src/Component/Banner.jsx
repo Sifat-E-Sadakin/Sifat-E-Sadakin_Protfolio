@@ -21,7 +21,7 @@ const Banner = () => {
       }, []);
 
     return (
-        <div id='home' className='relative bottom-20'>
+        <div id='home' className='relative bottom-20 pt-20'>
                <Helmet>
                 <title>Sifat-E-Sadakin | Portfolio</title>
              
@@ -33,7 +33,7 @@ const Banner = () => {
                         <div className='text-3xl text-left max-w-lg space-y-7  '>
                             <div>
                                 <span >Hi, I am <br /> </span><span className='text-5xl font-semibold'>Sifat-E-Sadakin <br /></span> <span className='text-xl'>looking for an opportunity to do some of my practical knowledge. In addition to this, I am really good at <br />
-                                     <TextTransition className='' inline springConfig={presets.gentle}>{TEXTS[index % TEXTS.length]}</TextTransition>. Besides, I also do programming in <TextTransition className='' inline springConfig={presets.gentle} delay={700}>{TEXTS1[index % TEXTS1.length]}</TextTransition>.</span>
+                                     <TextTransition className='font-semibold text-white' inline springConfig={presets.gentle}>{TEXTS[index % TEXTS.length]}</TextTransition>. Besides, I also do programming in <TextTransition className='font-semibold text-white' inline springConfig={presets.gentle} delay={700}>{TEXTS1[index % TEXTS1.length]}</TextTransition>.</span>
                             </div>
                             <div className='flex gap-10'>
                                 <a href="https://github.com/sifat-e-sadakin" target='_blank'><FaGithub></FaGithub></a>
