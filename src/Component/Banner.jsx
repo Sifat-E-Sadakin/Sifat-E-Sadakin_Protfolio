@@ -24,7 +24,7 @@ const Banner = () => {
             <div className="hero min-h-screen" style={{ backgroundImage: `url("/BG/89781.jpg")` }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">
-                    <div className="  flex flex-col-reverse md:flex-row  justify-center md:gap-32 items-center">
+                    <div className="  flex flex-col-reverse md:flex-row  justify-center md:gap-32 items-center ">
                         <div className='text-3xl text-left max-w-lg space-y-7  '>
                             <div>
                                 <span >Hi, I am <br /> </span><span className='text-5xl font-semibold'>Sifat-E-Sadakin <br /></span> <span className='text-xl'>looking for an opportunity to do some of my practical knowledge. In addition to this, I am really good at <br />
@@ -43,7 +43,7 @@ const Banner = () => {
                             </div>
                       
                         </div>
-                        <div className="max-w-xs ">
+                        <div className="max-w-xs pt-20">
                             <img className='rounded-full' src="/BG/HRS06415-removebg.png" alt="" />
                         </div>
 

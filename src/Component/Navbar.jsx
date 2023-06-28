@@ -28,7 +28,7 @@ const Navbar = () => {
         <li><Link activeClass="active" spy={true} smooth={true}  to='contact' onClick={scrollToTop}>Contact</Link></li>
        </>
     return (
-        <div className='sticky top-0 z-40' >
+        <div className='fixed w-full top-0 z-40' >
             <div className=' bg-black bg-opacity-50 text-white  '>
                 <div className="navbar container mx-auto    ">
                     <div className="navbar-start">
