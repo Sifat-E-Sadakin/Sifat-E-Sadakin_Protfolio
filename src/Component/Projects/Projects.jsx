@@ -35,7 +35,7 @@ const Projects = () => {
                         <div className="text-blue-50">
                             <h1 className='text-center text-3xl font-semibold my-10'> Recent Projects</h1>
                             <div data-aos="fade-up"
-                                data-aos-anchor-placement="top-bottom" className='flex flex-col md:flex-row content my-20  bg-black bg-opacity-30 hover:bg-opacity-60 p-10 rounded-lg'>
+                          className='flex flex-col md:flex-row content my-20  bg-black bg-opacity-30 hover:bg-opacity-60 p-10 rounded-lg'>
 
                                 <div className='md:w-1/2 '>
                                     <h1 className='text-center text-2xl font-medium'>Athlete Escape</h1>

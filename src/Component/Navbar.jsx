@@ -29,7 +29,7 @@ const Navbar = () => {
         <li><Link activeClass="active" spy={true} smooth={true}  to='contact' onClick={scrollToTop}>Contact</Link></li>
        </>
     return (
-        <div className='fixed w-full top-0 z-40' >
+        <div className='fixed w-screen top-0 z-40' >
             <div className=' bg-black bg-opacity-50 text-white  '>
                 <div className="navbar container mx-auto    ">
                     <div className="navbar-start">
@@ -41,8 +41,7 @@ const Navbar = () => {
                                 {navItem}
                             </ul>
                         </div>
-                        <Link  className="btn btn-ghost normal-case text-xl"  spy={true} activeClass="active"   to='home' onClick={scrollToTop}>Sifat-E-Sadakin</Link>
-        
+                        <a className="btn btn-ghost normal-case  text-xl">Sifat-E-Sadakin</a>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">
@@ -50,7 +49,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="navbar-end">
-                    <a className='btn btn-outline ' href="https://drive.google.com/uc?export=download&id=1J582FG-v1Jsnzr1WD97wotpfd6p3FYKT" target='_blank'>Resume <FaArrowCircleDown></FaArrowCircleDown></a>
+                    <a className='btn btn-outline  ' href="https://drive.google.com/uc?export=download&id=1J582FG-v1Jsnzr1WD97wotpfd6p3FYKT" target='_blank'>Resume <FaArrowCircleDown></FaArrowCircleDown></a>
                     </div>
                 </div>
             </div>
