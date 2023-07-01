@@ -41,7 +41,8 @@ const Navbar = () => {
                                 {navItem}
                             </ul>
                         </div>
-                        <a className="btn btn-ghost normal-case text-xl">Sifat-E-Sadakin</a>
+                        <Link  className="btn btn-ghost normal-case text-xl"  spy={true} activeClass="active"   to='home' onClick={scrollToTop}>Sifat-E-Sadakin</Link>
+        
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">

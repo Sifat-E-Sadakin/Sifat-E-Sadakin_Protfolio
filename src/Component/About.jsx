@@ -1,8 +1,13 @@
 import React from 'react';
 import { Element, Link, animateScroll as scroll } from 'react-scroll';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const About = () => {
+    
+
 
     const scrollToTop = () => {
         scroll.scrollToTop();
@@ -16,7 +21,7 @@ const About = () => {
                 
                 <div className='flex flex-col md:flex-row'>
                     
-                    <div className=' md:w-1/2'>
+                    <div data-aos="fade-right"  className=' md:w-1/2'>
                     <div className='flex justify-center py-8'>
                             <h1 className='text-2xl font-semibold'>Summery</h1>
 
@@ -27,7 +32,7 @@ const About = () => {
                         University through Coursera. However, I am confident in my ability to contribute to the success of your team
                         because of my sound understanding of MongoDB, Express, React, and Node.js.
                     </div>
-                    <div className='md:w-1/2 ps-12'>
+                    <div   data-aos="fade-left"  className='md:w-1/2 ps-12'>
                         <div className='flex justify-center py-8'>
                             <h1 className='text-2xl font-semibold'>Educational Qualification</h1>
 

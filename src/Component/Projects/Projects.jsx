@@ -8,6 +8,12 @@ import './projects.css'
 import { FaChrome, FaGithub, FaGithubSquare } from 'react-icons/fa';
 import { Helmet } from 'react-helmet-async';
 import LazyLoad from 'react-lazy-load';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
+
 
 
 
@@ -28,7 +34,8 @@ const Projects = () => {
                     <div className="hero-content text-center text-neutral-content">
                         <div className="text-blue-50">
                             <h1 className='text-center text-3xl font-semibold my-10'> Recent Projects</h1>
-                            <div className='flex flex-col md:flex-row content my-20  bg-black bg-opacity-30 p-10 rounded-lg'>
+                            <div data-aos="fade-up"
+                                data-aos-anchor-placement="top-bottom" className='flex flex-col md:flex-row content my-20  bg-black bg-opacity-30 hover:bg-opacity-60 p-10 rounded-lg'>
 
                                 <div className='md:w-1/2 '>
                                     <h1 className='text-center text-2xl font-medium'>Athlete Escape</h1>
@@ -66,7 +73,7 @@ const Projects = () => {
                             </div>
 
 
-                            <div className='flex flex-col md:flex-row-reverse my-20  bg-black bg-opacity-30 p-10 rounded-lg'>
+                            <div data-aos="fade-up" className='flex flex-col md:flex-row-reverse my-20  bg-black bg-opacity-30 hover:bg-opacity-60 p-10 rounded-lg'>
 
                                 <div className='md:w-1/2'>
                                     <h1 className='text-center text-2xl font-medium'>Wheels & Thrills </h1>
@@ -104,7 +111,7 @@ const Projects = () => {
                             </div>
 
 
-                            <div className='flex flex-col md:flex-row content my-20  bg-black bg-opacity-30 p-10 rounded-lg'>
+                            <div data-aos="fade-up" className='flex flex-col md:flex-row content my-20  bg-black bg-opacity-30 hover:bg-opacity-60 p-10 rounded-lg'>
 
                                 <div className='md:w-1/2'>
                                     <h1 className='text-center text-2xl font-medium'>Chef's Pro</h1>
