@@ -21,7 +21,7 @@ const Banner = () => {
       }, []);
 
     return (
-        <div id='home' className='relative bottom-20 pt-20'>
+        <div id='home' className='relative bottom-20 md:pt-20'>
                <Helmet>
                 <title>Sifat-E-Sadakin | Portfolio</title>
              

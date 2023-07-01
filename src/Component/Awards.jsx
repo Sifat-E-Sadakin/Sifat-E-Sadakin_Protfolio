@@ -4,7 +4,7 @@ const Awards = () => {
     return (
         <div className=''>
           
-            <div className="hero min-h-screen"style={{ backgroundImage: `url("/BG/red-black-brush-stroke-banner-background-perfect-canva.jpg")` }}>
+            <div className="hero md:bg-fixed min-h-screen"style={{ backgroundImage: `url("/BG/red-black-brush-stroke-banner-background-perfect-canva.jpg")` }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">
                     
