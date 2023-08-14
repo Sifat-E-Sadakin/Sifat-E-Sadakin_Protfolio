@@ -10,6 +10,7 @@ import BgDesign from '../Component/BgDesign';
 import Contact from '../Component/Contact';
 import Footer from '../Component/Footer';
 import Awards from '../Component/Awards';
+import Experience from '../Component/Experience.JSx';
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
             <Navbar></Navbar>
             <Banner></Banner>
             <About></About>
+            <Experience></Experience>
             <Skills></Skills>
             <Projects></Projects>
             <GithubCalendar></GithubCalendar>
