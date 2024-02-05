@@ -1,37 +1,33 @@
-.active{
-    font-weight: bold;
-  
+.active {
+  font-weight: bold;
 }
 
-
 .content {
-  
   position: relative;
 }
 .screen {
-	display: block;
-	width: 75%;
-	height: 350px;
-	overflow: hidden;
-	position: relative;
+  display: block;
+  width: 75%;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
 
-	
-	margin: 0 auto;
+  margin: 0 auto;
 }
 .screen img {
-	bottom: -500px;
-	width: 100%;
-	height: auto;
-	position: absolute;
-	z-index: 0;
-  margin:0;
-  padding:0;
- 
-	-webkit-transition: top 3s;
-	-moz-transition: top 3s;
-	-ms-transition: top 3s;
-	-o-transition: top 3s;
-	transition: bottom 3s;
+  bottom: -500px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+
+  -webkit-transition: top 3s;
+  -moz-transition: top 3s;
+  -ms-transition: top 3s;
+  -o-transition: top 3s;
+  transition: bottom 3s;
 }
 .screen:hover img {
   bottom: 0;
@@ -41,31 +37,62 @@
   -o-transition: all 3s;
   transition: all 3s;
 }
+.screen-m {
+  display: block;
+  width: 75%;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+
+  margin: 0 auto;
+}
+.screen-m img {
+  bottom: -1056px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+
+  -webkit-transition: top 3s;
+  -moz-transition: top 3s;
+  -ms-transition: top 3s;
+  -o-transition: top 3s;
+  transition: bottom 3s;
+}
+.screen-m:hover img {
+  bottom: 0;
+  -webkit-transition: all 3s;
+  -moz-transition: all 3s;
+  -ms-transition: all 3s;
+  -o-transition: all 3s;
+  transition: all 3s;
+}
 
 .screen1 {
-	display: block;
-	width: 75%;
-	height: 350px;
-	overflow: hidden;
-	position: relative;
+  display: block;
+  width: 75%;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
 
-	
-	margin: 0 auto;
+  margin: 0 auto;
 }
 .screen1 img {
-	bottom: -805px;
-	width: 100%;
-	height: auto;
-	position: absolute;
-	z-index: 0;
-  margin:0;
-  padding:0;
- 
-	-webkit-transition: top 4s;
-	-moz-transition: top 4s;
-	-ms-transition: top 4s;
-	-o-transition: top 4s;
-	transition: bottom 4s;
+  bottom: -805px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+
+  -webkit-transition: top 4s;
+  -moz-transition: top 4s;
+  -ms-transition: top 4s;
+  -o-transition: top 4s;
+  transition: bottom 4s;
 }
 .screen1:hover img {
   bottom: 0;
@@ -77,29 +104,28 @@
 }
 
 .screen2 {
-	display: block;
-	width: 75%;
-	height: 350px;
-	overflow: hidden;
-	position: relative;
+  display: block;
+  width: 75%;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
 
-	
-	margin: 0 auto;
+  margin: 0 auto;
 }
 .screen2 img {
-	bottom: -1225px;
-	width: 100%;
-	height: auto;
-	position: absolute;
-	z-index: 0;
-  margin:0;
-  padding:0;
- 
-	-webkit-transition: top 5s;
-	-moz-transition: top 5s;
-	-ms-transition: top 5s;
-	-o-transition: top 5s;
-	transition: bottom 5s;
+  bottom: -1225px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+
+  -webkit-transition: top 5s;
+  -moz-transition: top 5s;
+  -ms-transition: top 5s;
+  -o-transition: top 5s;
+  transition: bottom 5s;
 }
 .screen2:hover img {
   bottom: 0;
@@ -110,113 +136,138 @@
   transition: all 5s;
 }
 
-@media screen and (max-width:576px){
-
-	.content {
-  
-		position: relative;
-	  }
-	  .screen {
-		  display: block;
-		  width: 75%;
-		  height: 350px;
-		  overflow: hidden;
-		  position: relative;
-	  
-		  
-		  margin: 0 auto;
-	  }
-	  .screen img {
-		  bottom: -85px;
-		  width: 100%;
-		  height: auto;
-		  position: absolute;
-		  z-index: 0;
-		margin:0;
-		padding:0;
-	   
-		  -webkit-transition: top 3s;
-		  -moz-transition: top 3s;
-		  -ms-transition: top 3s;
-		  -o-transition: top 3s;
-		  transition: bottom 3s;
-	  }
-	  .screen:hover img {
-		bottom: 0;
-		-webkit-transition: all 3s;
-		-moz-transition: all 3s;
-		-ms-transition: all 3s;
-		-o-transition: all 3s;
-		transition: all 3s;
-	  }
-	  
-	  .screen1 {
-		  display: block;
-		  width: 75%;
-		  height: 350px;
-		  overflow: hidden;
-		  position: relative;
-	  
-		  
-		  margin: 0 auto;
-	  }
-	  .screen1 img {
-		  bottom: -250px;
-		  width: 100%;
-		  height: auto;
-		  position: absolute;
-		  z-index: 0;
-		margin:0;
-		padding:0;
-	   
-		  -webkit-transition: top 3s;
-		  -moz-transition: top 3s;
-		  -ms-transition: top 3s;
-		  -o-transition: top 3s;
-		  transition: bottom 3s;
-	  }
-	  .screen1:hover img {
-		bottom: 0;
-		-webkit-transition: all 3s;
-		-moz-transition: all 3s;
-		-ms-transition: all 3s;
-		-o-transition: all 3s;
-		transition: all 3s;
-	  }
-	  
-	  .screen2 {
-		  display: block;
-		  width: 75%;
-		  height: 350px;
-		  overflow: hidden;
-		  position: relative;
-	  
-		  
-		  margin: 0 auto;
-	  }
-	  .screen2 img {
-		  bottom: -470px;
-		  width: 100%;
-		  height: auto;
-		  position: absolute;
-		  z-index: 0;
-		margin:0;
-		padding:0;
-	   
-		  -webkit-transition: top 3s;
-		  -moz-transition: top 3s;
-		  -ms-transition: top 3s;
-		  -o-transition: top 3s;
-		  transition: bottom 3s;
-	  }
-	  .screen2:hover img {
-		bottom: 0;
-		-webkit-transition: all 3s;
-		-moz-transition: all 3s;
-		-ms-transition: all 3s;
-		-o-transition: all 3s;
-		transition: all 3s;
-	  }
-	  
-	
+@media screen and (max-width: 576px) {
+  .content {
+    position: relative;
   }
+  .screen {
+    display: block;
+    width: 75%;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+
+    margin: 0 auto;
+  }
+  .screen img {
+    bottom: -85px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+
+    -webkit-transition: top 3s;
+    -moz-transition: top 3s;
+    -ms-transition: top 3s;
+    -o-transition: top 3s;
+    transition: bottom 3s;
+  }
+  .screen:hover img {
+    bottom: 0;
+    -webkit-transition: all 3s;
+    -moz-transition: all 3s;
+    -ms-transition: all 3s;
+    -o-transition: all 3s;
+    transition: all 3s;
+  }
+  .screen-m {
+    display: block;
+    width: 75%;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+
+    margin: 0 auto;
+  }
+  .screen-m img {
+    bottom: -85px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+
+    -webkit-transition: top 3s;
+    -moz-transition: top 3s;
+    -ms-transition: top 3s;
+    -o-transition: top 3s;
+    transition: bottom 3s;
+  }
+  .screen-m:hover img {
+    bottom: 0;
+    -webkit-transition: all 3s;
+    -moz-transition: all 3s;
+    -ms-transition: all 3s;
+    -o-transition: all 3s;
+    transition: all 3s;
+  }
+
+  .screen1 {
+    display: block;
+    width: 75%;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+
+    margin: 0 auto;
+  }
+  .screen1 img {
+    bottom: -250px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+
+    -webkit-transition: top 3s;
+    -moz-transition: top 3s;
+    -ms-transition: top 3s;
+    -o-transition: top 3s;
+    transition: bottom 3s;
+  }
+  .screen1:hover img {
+    bottom: 0;
+    -webkit-transition: all 3s;
+    -moz-transition: all 3s;
+    -ms-transition: all 3s;
+    -o-transition: all 3s;
+    transition: all 3s;
+  }
+
+  .screen2 {
+    display: block;
+    width: 75%;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+
+    margin: 0 auto;
+  }
+  .screen2 img {
+    bottom: -470px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+
+    -webkit-transition: top 3s;
+    -moz-transition: top 3s;
+    -ms-transition: top 3s;
+    -o-transition: top 3s;
+    transition: bottom 3s;
+  }
+  .screen2:hover img {
+    bottom: 0;
+    -webkit-transition: all 3s;
+    -moz-transition: all 3s;
+    -ms-transition: all 3s;
+    -o-transition: all 3s;
+    transition: all 3s;
+  }
+}
