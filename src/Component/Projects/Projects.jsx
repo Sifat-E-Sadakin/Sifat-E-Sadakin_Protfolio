@@ -47,12 +47,10 @@ const Projects = () => {
                     solutions
                   </p>
                   <div className="text-start">
-                    <li>Purchase Courses</li>
-                    <li>Payment with card</li>
-                    <li>
-                      Different Dashboard for admin, instructor and student
-                    </li>
-                    <li>Login with Google</li>
+                    <li>Next Js</li>
+                    <li>Styled Components</li>
+                    <li>Wagtail API integration</li>
+                    <li>React Hook form</li>
                     <li>Mobile Responsive</li>
                   </div>
                   <div className="flex justify-evenly my-5">
