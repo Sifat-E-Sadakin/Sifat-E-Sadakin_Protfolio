@@ -50,6 +50,7 @@ const Contact = () => {
                             <input required placeholder='Your Email' className="input input-bordered input-primary w-full max-w-xs" type="email" name="user_email" />
 
                         </div>
+                      
                     </div>
 
                     <div className='flex flex-col gap-4'>
