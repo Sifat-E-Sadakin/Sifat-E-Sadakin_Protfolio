@@ -14,12 +14,13 @@ import Experience from "../Component/Experience.jsx";
 
 const Home = () => {
   return (
-    <div className="">
+    <div className="w-full">
       <Navbar></Navbar>
       <Banner></Banner>
+      <Skills></Skills>
       <About></About>
       <Experience></Experience>
-      <Skills></Skills>
+
       <Projects></Projects>
       <GithubCalendar></GithubCalendar>
       <Awards></Awards>
